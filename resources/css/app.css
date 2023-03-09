@@ -1,0 +1,157 @@
+/*HEADER CSS*/
+*{
+    margin: 0 55px;
+    scroll-behavior: smooth;
+    /*background-color: #c9c7c7;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+.parallax {
+    background-image: url("/images/bg_parolax.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-text{
+    margin: 100px 0 0 15px;
+    position: absolute;
+    text-decoration: none;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #7ea82a;
+    font-style: normal;
+}
+.menu{
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    margin: 100px 0 0 0;
+    background-color: #7ea82a;
+    right: 400px;
+    padding: 10px 15px;
+}
+.logo-description{
+    margin: 300px 0 0 -40px;
+    position: absolute;
+    text-decoration: none;
+    font-family: "Droid Sans Mono Slashed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #c7bbc7;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 40px;
+}
+.quote{
+    margin: 500px 0 0 -40px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 300;
+    color: #c7bbc7;
+}
+.shape{
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 700px;
+    position: absolute;
+    top: -10px;
+    left: 165px;
+    overflow: hidden;
+}
+
+
+/*SECTION PROVIDE*/
+
+
+.container-provide{
+    padding: 250px 0 0 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: auto;
+    background-color: #e0cff5;
+}
+.provide-list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.provide-title{
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: #494949;
+    margin: 0;
+    padding: 0;
+
+}
+.provide-description{
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #494949;
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-align: left;
+    line-height: 25px;
+}
+.provide-icon{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    color: #7ea82a;
+    height: 25%;
+    width: 25%;
+    margin-bottom: 30px;
+}
+.icons-2{
+    height: 40%;
+    width: 40%;
+    margin-bottom: 30px;
+}
+.icons:hover{
+    filter: invert(48%) sepia(93%) saturate(2096%) hue-rotate(10deg) brightness(105%) contrast(103%);
+    transition: filter 0.5s;
+}
+.icons-2:hover{
+    filter: invert(48%) sepia(93%) saturate(2096%) hue-rotate(10deg) brightness(105%) contrast(103%);
+    transition: filter 0.5s;
+}
+
+
+/*SECTION QR-CODE*/
+
+
+.qr-code-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 600px;
+    background-color: #e0cff5;
+    margin: 0;
+    align-items: center;
+
+}
+.qr-code-img{
+    margin: 10px 0 10px 250px;
+    padding: 0;
+    width: 40%;
+}
+.qr-code-text{
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: #494949;
+    width: 330px;
+}
+.qr-code-text:hover{
+    color: #ffba09;
+    transition:1s;
+}
