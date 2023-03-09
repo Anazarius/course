@@ -2,8 +2,8 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Sign-Up/Login Form</title>
-
+  <title>Регистрация/Авторизация</title>
+    <link rel="shortcut icon" href="/images/icons/icon_site.png" type="image/x-icon">
   <link rel="stylesheet" href="/resources/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
